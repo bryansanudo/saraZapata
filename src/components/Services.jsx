@@ -33,15 +33,21 @@ const Services = () => {
         </div>
 
         <div className="w-full lg:w-1/2 flex justify-center">
-          <video
-            src={servicesVideo}
-            loop
-            autoPlay
-            muted
-            type="video/mp4"
-            playsInline
-            className="rounded-lg shadow-xl shadow-thPrimary h-[400px] lg:h-[500px]"
-          ></video>
+          <a
+            href="https://www.instagram.com/p/CogCoiuuub4/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <video
+              src={servicesVideo}
+              loop
+              autoPlay
+              muted
+              type="video/mp4"
+              playsInline
+              className="rounded-lg shadow-xl shadow-thPrimary h-[400px] lg:h-[500px]"
+            ></video>
+          </a>
         </div>
       </div>
     </PageSection>
