@@ -29,7 +29,11 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     <>
       <div className="fixed w-full h-40 bg-black text-white z-20 ">
         <div className="flex justify-between lg:justify-center md:gap-5 items-center max-w-screen-xl mx-auto px-4 h-full">
-          <a href="https://www.instagram.com/sarazapata144/">
+          <a
+            href="https://www.instagram.com/sarazapata144/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div>
               <img
                 src={logoSara1}
