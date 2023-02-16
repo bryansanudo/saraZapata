@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 import logoSara from "@/assets/logoSara.jpg";
+import logoSara1 from "@/assets/logoSara1.jpg";
 
 const Navbar = ({ isMenuShown, setIsMenuShown }) => {
   const links = [
@@ -28,12 +29,12 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     <>
       <div className="fixed w-full h-40 bg-black text-white z-20 ">
         <div className="flex justify-between lg:justify-center md:gap-5 items-center max-w-screen-xl mx-auto px-4 h-full">
-          <a href="https://sara-marcas.vercel.app/">
+          <a href="https://www.instagram.com/sarazapata144/">
             <div>
               <img
-                src={logoSara}
+                src={logoSara1}
                 alt=""
-                className="rounded-full object-cover w-40 h-40 shadow-thSecondary hover:shadow-thPrimary duration-300 shadow-xl cursor-pointer"
+                className="rounded-full object-cover md:w-40 md:h-40 h-28 w-28  duration-300 shadow-xl cursor-pointer shadow-thSecondary hover:shadow-thPrimary"
               />
             </div>
           </a>
@@ -56,15 +57,15 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
           >
             {isMenuShown ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>
-          {/* <Link to="">
+          <a href="https://sara-marcas.vercel.app/">
             <div>
               <img
                 src={logoSara}
                 alt=""
-                className="rounded-full object-cover w-16 h-16 hover:scale-110 duration-300 shadow-lg shadow-thOrange"
+                className="rounded-full object-cover md:w-40 md:h-40 w-28 h-28  shadow-thPrimary hover:shadow-thSecondary duration-300 shadow-xl cursor-pointer"
               />
             </div>
-          </Link> */}
+          </a>
         </div>
       </div>
 
