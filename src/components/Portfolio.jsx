@@ -141,7 +141,7 @@ const Portfolio = () => {
                   <div className="flex flex-col items-center justify-center">
                     <img
                       src={src}
-                      className="h-[330px] md:h-[500px]  w-full  object-cover "
+                      className="h-[330px] md:h-[500px]  w-full  object-cover rounded-t-xl "
                     />
                     <p className="m-4 capitalize text-sm md:text-lg">
                       {category}
