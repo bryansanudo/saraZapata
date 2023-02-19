@@ -124,10 +124,7 @@ const Portfolio = () => {
       name="portafolio"
       title="portafolio"
       subtitle={`
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    Dignissimos sunt enim eum possimus, culpa veritatis hic aspernatur
-    numquam ducimus exercitationem fuga nemo consequatur odit
-    laudantium voluptate facilis veniam perferendis pariatur?`}
+      Me apasiona crear soluciones creativas e innovadoras para mis clientes y hacer que sus proyectos sean únicos y exitosos. En este portafolio, encontrarás una breve selección de mis trabajos.`}
     >
       <div className="w-full bg-gradient-to-b from-gray-800 to-black text-white">
         <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4 ">

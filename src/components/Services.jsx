@@ -6,30 +6,28 @@ const Services = () => {
   return (
     <PageSection
       name="servicios"
-      title="¿Que te ofrezco?"
-      subtitle={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae consectetur neque odit rem ipsum labore voluptate aliquid aspernatur. Eum accusantium nostrum perferendis molestiae blanditiis mollitia nam quo aperiam modi.`}
+      title="¡Hola soy Sara Zapata "
+      subtitle={`Si estás buscando una forma efectiva de promocionar tu marca y llegar a una audiencia más amplia, entonces te recomiendo que consideres contratar mis servicios.`}
     >
       <div className="flex flex-col lg:flex-row items-center justify-center gap-16">
         <div className="flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg">
           <p className="border-l-4 pl-4 odd:border-thPrimary even:border-thSecondary">
-            t amet consectetur adipisicing elit. Eveniet beatae consectetur
-            neque odit rem ipsum labore voluptate aliquid aspernatur. Eum accu
+            Tu contenido no se perderá en el tiempo y estará disponible a un
+            solo clic en mis redes sociales.
           </p>
           <p className="border-l-4 pl-4 odd:border-thPrimary even:border-thSecondary">
-            t amet consectetur adipisicing elit. Eveniet beatae consectetur
-            neque odit rem ipsum labore voluptate aliquid aspernatur. Eum accu
+            Te gestiono al 100% una página web personalizada con tu marca +
+            Hosting en la nube y todo conectado con Instagram , WhatsApp o lo
+            que necesites.
           </p>
           <p className="border-l-4 pl-4 odd:border-thPrimary even:border-thSecondary">
-            t amet consectetur adipisicing elit. Eveniet beatae consectetur
-            neque odit rem ipsum labore voluptate aliquid aspernatur. Eum accu
+            Tengo una gran cantidad de seguidores que son altamente
+            comprometidos y activos.
           </p>
           <p className="border-l-4 pl-4 odd:border-thPrimary even:border-thSecondary">
-            t amet consectetur adipisicing elit. Eveniet beatae consectetur
-            neque odit rem ipsum labore voluptate aliquid aspernatur. Eum accu
+            Mi contenido se centra en temáticas que aumentaran la visibilidad de
+            tu marca.
           </p>
-          <a href="">
-            <button></button>
-          </a>
         </div>
 
         <div className="w-full lg:w-1/2 flex justify-center">
