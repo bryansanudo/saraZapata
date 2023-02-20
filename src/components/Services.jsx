@@ -28,6 +28,9 @@ const Services = () => {
             Mi contenido se centra en temáticas que aumentaran la visibilidad de
             tu marca.
           </p>
+          <p className="border-l-4 pl-4 odd:border-thPrimary even:border-thSecondary">
+            Soporte técnico lunes a sábado 8:00 am - 10:00 pm.
+          </p>
         </div>
 
         <div className="w-full lg:w-1/2 flex justify-center">
