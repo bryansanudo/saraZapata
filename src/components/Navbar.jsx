@@ -27,18 +27,19 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
 
   return (
     <>
-      <div className="fixed w-full h-40 bg-black text-white z-20 ">
+      <div className="fixed w-full h-40 md:h-48 bg-black text-white z-20 ">
         <div className="flex justify-between lg:justify-center md:gap-5 items-center max-w-screen-xl mx-auto px-4 h-full">
           <a
             href="https://www.instagram.com/sarazapata144/"
             target="_blank"
             rel="noreferrer"
           >
-            <div>
+            <div className="flex items-center flex-col gap-2 md:mt-5 ">
+              <p>Instagram</p>
               <img
                 src={logoSara1}
                 alt=""
-                className="rounded-full object-cover md:w-40 md:h-40 h-28 w-28  duration-300 shadow-xl cursor-pointer shadow-thSecondary hover:shadow-thPrimary"
+                className="rounded-full object-cover md:w-32 md:h-32 h-28 w-28  duration-300 shadow-xl cursor-pointer shadow-thSecondary hover:shadow-thPrimary"
               />
             </div>
           </a>
@@ -62,11 +63,12 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
             {isMenuShown ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>
           <a href="https://sara-marcas.vercel.app/">
-            <div>
+            <div className="flex items-center flex-col md:mt-5 gap-2 ">
+              <p>Mis Marcas</p>
               <img
                 src={logoSara}
                 alt=""
-                className="rounded-full object-cover md:w-40 md:h-40 w-28 h-28  shadow-thPrimary hover:shadow-thSecondary duration-300 shadow-xl cursor-pointer"
+                className="rounded-full object-cover md:w-32 md:h-32 w-28 h-28  shadow-thPrimary hover:shadow-thSecondary duration-300 shadow-xl cursor-pointer"
               />
             </div>
           </a>
